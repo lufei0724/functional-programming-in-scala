@@ -1,7 +1,6 @@
 package c03.exception
 
 import Option._
-import Either._
 
 object Main extends App {
   println("==== Some(1).map(_ => 2) ====")

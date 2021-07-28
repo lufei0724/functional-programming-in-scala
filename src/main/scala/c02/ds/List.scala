@@ -7,6 +7,7 @@ import c02.ds.List.{add1, addOneViaFoldLeft, drop, dropWhile, init, length, sum,
  * sealed means that all implementations of List must be declared in this file
  * type parameter [+A] to declare the List data type to be polymorphic
  * the + indicates the type parameter A is a covariant parameter
+ * Making A covariant implies that for two types A and B where B is a subtype of A, then List[B] is a subtype of List[A]
  */
 sealed trait List[+A]
 
